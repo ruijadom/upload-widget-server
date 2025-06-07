@@ -1,0 +1,25 @@
+{
+  "name": "upload-widget-server",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Widget server for uploading files",
+  "main": "index.ts",
+  "scripts": {
+    "dev": "tsx watch src/infra/http/server.ts"
+  },
+  "keywords": [],
+  "author": "ruijadom",
+  "license": "ISC",
+  "dependencies": {
+    "@fastify/cors": "^11.0.1",
+    "fastify": "^5.3.3",
+    "fastify-type-provider-zod": "^4.0.2",
+    "zod": "^3.25.56"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^1.9.4",
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
